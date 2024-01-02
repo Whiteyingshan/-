@@ -47,4 +47,22 @@ export function deleteArticle(id) {
     params: { id }
   })
 }
+export function sexCount() {
+  return request({
+    url: '/employee/sex_count',
+    method: 'get'
+  })
+}
+export function deptCount() {
+  return request({
+    url: '/employee/dept_count',
+    method: 'get'
+  })
+}
+export function degreeCount() {
+  return request({
+    url: '/employee/degree_count',
+    method: 'get'
+  })
+}
 
