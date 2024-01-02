@@ -72,9 +72,9 @@ export default {
             }
           },
           indicator: [
-            { name: '业务部', max: 50 },
-            { name: '人事部', max: 50 },
-            { name: '后勤部', max: 50 }
+            { name: '业务部', max: 30 },
+            { name: '人事部', max: 30 },
+            { name: '后勤部', max: 30 }
           ]
         },
         legend: {
